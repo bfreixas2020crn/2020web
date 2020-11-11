@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: verdana;
+
+}
+div{
+  background-repeat: no-repeat;
+  background-position: 400px ;
+}
+
+h1, p{
+  width: 350px;
+  padding: 25px;
+
+}
+h1{
+  margin: 0;
+  text-align: center;
+
+}
+b{
+  display: inline-block;
+
+
+}
+p{
+  padding: 0 25px;
+
+  margin: 0;
+  text-align: justify;
+}
+
+li{
+  display: inline-block;
+  height: 30px;
+  margin: 0;
+  line-height: 30px;
+  padding: 5px;
+}
+li:hover{
+  background-color: yellowgreen;
+}
+a{
+  text-decoration: none;
+}
+
+#primera{
+  height: 40px;
+}
+#segona{
+  height: 550px;
+  background-image:url(img/img-hero-full-list.png);
+}
+#tercera{
+  height: 641px;
+  background-image: url(img/allinone.jpg);
+}
+#cuarta{
+  height: 500px;
+  background-image: url(img/curator-short.png);
+}
+#cinquena{
+  height: 550px;
+  background-image: url(img/img-hero-full-list.png);
+}
+#sisena{
+  height: 550px;
+  background-image: url(img/mobile-share.png);
+}
+#setena{
+  height: 643px;
+  background-image: url(img/anywhere.png);
+}
+#vuitena{
+  height: 200px;
+  text-align: center;
+  padding-top: 20px;
+}
+#boto{
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  bottom: 50px;
+  right: 100px;
+
+
+  border-radius: 35px;
+  box-shadow: 1px 1px 25px black;
+  text-align: center;
+  line-height: 63px;
+  font-size: 60px;
+
+
+  background-image: url(img/sources.png);
+  background-position: -220px -2px;
+  color: white;
+  opacity: 0.9;
+}
+.blanc{
+  background-color: #FFF;
+}
+.verd{
+  background-color: #6C3;
+}
+.fosca{
+  background-color: #333;
+
+}
+.grisclar{
+  background-color: #EEECEE;
+}

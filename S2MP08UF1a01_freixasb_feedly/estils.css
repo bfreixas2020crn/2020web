@@ -1,0 +1,207 @@
+html{
+  font-size: 16px;
+}
+
+
+body {
+  background-color: skyblue;
+  margin: 0;
+  font-family: Verdana;
+}
+
+
+div {
+  background-color:;
+  height: 3.125rem;
+
+
+  background-repeat: no-repeat;
+  background-position: 25rem;
+}
+
+li{
+  display: inline-block;
+  height: 1.875rem;
+  margin: 0;
+  padding: 0.3125rem;
+  line-height: 1.875rem;
+}
+
+li:hover {
+  background-color: yellowgreen;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, p {
+  width: 21.875rem;
+  padding: 1.5625rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  padding: 0 1.5625rem;
+  margin: 0;
+}
+
+
+#primera {
+  height: 2.5rem;
+}
+
+#segona {
+  height: 34.375rem;
+  background-image: url(img/img-hero-full-list.png);
+}
+
+#tercera {
+  height: 40.0625rem;
+  background-image: url(img/allinone.jpg);
+}
+
+#quarta {
+  height: 31.25rem;
+  background-image: url(img/curator-short.png);
+}
+
+#cinquena {
+  height: 34.375rem;
+  background-image: url(img/img-hero-full-list.png);
+}
+
+#sisena {
+  height: 34.375rem;
+  background-image: url(img/mobile-share.png);
+}
+
+#setena {
+  height: 40.1875rem;
+  background-image: url(img/anywhere.png);
+}
+
+#vuitena {
+  height: 12.5rem;
+  text-align: center;
+}
+
+
+img{
+  padding: 1.5625rem;
+}
+
+
+.blanc{
+  background-color: #FFF;
+}
+
+.verd{
+  background-color: #6C3;
+}
+
+.fosca{
+  background-color: #333;
+}
+
+.grisclar{
+  background-color: #EEECEE;
+}
+
+
+#boto{
+
+  height: 4.375rem;
+  width: 4.375rem;
+
+  position: fixed;
+  bottom: 3.125rem;
+  right: 6.25rem;
+
+  border-radius: 2.1875rem;
+  box-shadow: 0.125rem 0.125rem 0.3125rem black;
+
+  text-align: center;
+  color: white;
+  line-height: 5.625rem;
+  font-size: 3.75rem;
+
+  background-image: url(img/sources.png);
+  background-position: -14.0625rem -1.25rem;
+  opacity: 0.9;
+}
+
+/*------dissney mobil-----*/
+
+@media screen and (max-width: 960px){
+  div{
+    background-image: ;
+  }
+
+  li{
+    display: block;
+    background-color: orange;
+    height: 30px;
+    margin: 0 0 0 -40px;
+    padding: 5px;
+    line-height: 30px;
+  }
+
+  #primera {
+    height: 280px;
+  }
+}
+/*------dissney imprimir-----*/
+
+@media print{
+  body{
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+  }
+
+  div{
+    width: 95mm;
+    float: left;
+    margin: 0;
+    display: inline-block;;
+  }
+  h1{
+    font-size: 16pt;
+    margin: 0;
+  }
+  #primera{
+    display: none;
+  height: 80mm;
+  }
+  #vuitena {
+    display:none;
+    height: 80mm;
+  }
+  #boto{
+    display: none;
+    height: 80mm;
+  }
+  #segona {
+    height: 80mm;
+  }
+  #tercera {
+    height: 80mm;
+  }
+  #quarta {
+    height: 80mm;
+  }
+  #cinquena {
+    height: 80mm;
+  }
+  #sisena {
+    height: 80mm;
+  }
+  #setena {
+    height: 80mm;
+  }
+
+  }

@@ -1,0 +1,272 @@
+body{
+  background-color: grey;
+}
+.pelo{
+  height: 40rem;
+  width: 30rem;
+  background-image: linear-gradient(#B5872F, #9B7122 );
+  margin: 0 auto;
+  border-radius: 12rem 12rem 0 0;
+  margin-top: 2rem;
+}
+.pico{
+  width: 2rem;
+  height: 2rem;
+  background-color: grey;
+  margin: 0 auto;
+  transform: translateY(-1.2rem)rotate(50deg) ;
+}
+.flequi{
+  height: 3rem;
+  width: 25rem;
+  background-color: #B0832E;
+}
+#luna1{
+  height: 6.25rem;
+  width: 6.25rem;
+  background-image: linear-gradient(#B0832E, #9B7122 );
+  border-radius: 3rem 0  3rem 0;
+  float:  left;
+}
+#luna2{
+  height:  6.25rem;
+  width: 6.25rem;
+  background-image: linear-gradient(#B0832E, #9B7122 );
+  border-radius: 3rem 0  3rem 0;
+  float: left;
+}
+#luna3{
+  height:  6.25rem;
+  width: 6.25rem;
+  background-image: linear-gradient(#B0832E, #9B7122 );
+  border-radius: 3rem 0  3rem 0;
+  float: left;
+}
+#luna4{
+  height:  6.25rem;
+  width: 6.25rem;
+  background-image: linear-gradient(#B0832E, #9B7122 );
+  border-radius: 3rem 0  3rem 0;
+  float: left;
+}
+.cara{
+  width: 25rem;
+  height: 25rem;
+  background-color: #ffdab9;
+  margin: 0 auto;
+  border-radius: 10rem 10rem 30rem 30rem;
+  margin-top: -32rem;
+}
+.celles{
+  background-color:blue;
+  margin: 0 auto;
+}
+.cella1{
+  height: 1.5rem;
+  width: 8rem;
+  background-image: linear-gradient(to left,#ffdab9, #5E3F19, #513512 );
+  margin-left: 2.7rem;
+  border-radius: 5rem 0 0 0;
+  float:left;
+}
+
+.cella2{
+  height: 1.5rem;
+  width: 8rem;
+  background-image: linear-gradient(to right,#ffdab9, #5E3F19, black );
+  margin-left: 3.8rem;
+  border-radius: 0 5rem 0 0;
+  float:left;
+}
+.parpella{
+  height:2rem;
+  width: 25rem;
+  margin:0 auto;
+  transform: translateY(0.4rem);
+}
+.parpella1{
+  height: 4rem;
+  width: 5rem;
+  background-color: ;
+  margin-left: 4.9rem;
+  border-radius: 9rem;
+  box-shadow: 0 -0.2rem #FAD3B1;
+  float:left;
+}
+.parpella2{
+  height: 4.2rem;
+  width: 5rem;
+  background-color: ;
+  margin-left: 5.5rem;
+  border-radius: 9rem;
+  box-shadow: 0 -0.2rem #FAD3B1;
+  float:left;
+}
+.ulls{
+  width:25rem;
+  height:4rem;
+  transform: translateY(-1rem);
+  margin:0 auto;
+  background-color: ;
+}
+.ull1{
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: white;
+  margin: -3rem 0 0 5.5rem;
+  border-radius: 0 7rem;
+  transform: rotate(-42deg);
+  float:left;
+  border-style: solid;
+  border-color: #F4CBA6;
+}
+.ull2{
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: white;
+  margin: -3rem 0 0 6.5rem;
+  border-radius: 0 7rem;
+  transform: rotate(-47deg);
+  float:left;
+  border-style: solid;
+  border-color: #F4CBA6;
+}
+.peca{
+  background-color: #C59E57;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 5rem;
+  transform: translateX(4rem)translateY(6.3rem);
+}
+.pupila1{
+  background: radial-gradient(circle closest-side, black 10%, #2E8947 50%, #70892E);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  margin: 0 auto;
+  transform: translateX(0rem)translateY(0.8rem);
+}
+.pupila2{
+  background: radial-gradient(circle closest-side, black 10%, #2E8947 50%, #70892E);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  margin: 0 auto;
+  transform: translateX(0rem)translateY(0.8rem);
+}
+#reflex{
+  background: white;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 1rem;
+  transform: translateX(1rem)translateY(-1.5rem);
+}
+.nas{
+
+  height: 7rem;
+  width: 6rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+.pont1{
+  height: 3.5rem;
+  width: 2rem;
+  border-radius: 0.5rem;
+  box-shadow:0.2rem 0rem #FAD3B1;
+  float: left;
+  margin-top: -2rem;
+}
+.pont2{
+  height: 3.5rem;
+  width: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: -0.2rem 0rem #FAD3B1;
+  float: left;
+  margin-left: 2rem;
+  margin-top: -2rem;
+}
+.nas1{
+  height: 2rem;
+  width: 3rem;
+  margin: 0 auto;
+  border-radius: 5rem;
+  box-shadow: 0rem 0.2rem #FAD3B1;
+  transform: translateY(5rem);
+}
+.nas2{
+  height: 1.3rem;
+  width: 1.3rem;
+  margin: 0 auto;
+  border-radius: 5rem;
+  box-shadow: -0.1rem 0rem #FAD3B1;
+  float: left;
+  transform: translateX(0.8rem) translateY(0.5rem);
+}
+.nas3{
+  height: 1.3rem;
+  width: 1.3rem;
+  margin: 0 auto;
+  border-radius: 5rem;
+  box-shadow: 0.1rem 0rem #FAD3B1;
+  float: left;
+  transform: translateX(2.5rem) translateY(0.5rem);
+}
+.boca{
+  height: 4rem;
+  width: 8rem;
+  margin: 0 auto;
+  margin-top: 1.9rem;
+}
+.labiosup1{
+  height:1rem;
+  width: 3.8rem;
+  background-image: linear-gradient(pink, #EC86B1 );
+  border-radius: 15rem 15rem 0rem 0rem ;
+  float: left;
+
+}
+.labiosup2{
+  height:1rem;
+  width: 3.8rem;
+  background-image: linear-gradient(pink, #EC86B1 );
+  border-radius: 15rem 15rem 0rem 0rem ;
+
+  float: left;
+}
+.dientes{
+  height:1.3rem;
+  width: 7.3rem;
+  background-color: white;
+  border-radius: 0 0 2rem 2rem;
+  transform: translateX(0.2rem) translateY(1rem);
+}
+.labioinf{
+  height:2rem;
+  width: 8.3rem;
+  border-radius: 0rem 0rem 20rem 20rem;
+  box-shadow:  0 0.9rem #EC86B1;
+  transform:translateY(-1.5rem) translateX(-0.3rem);
+}
+.moflete{
+  height: 5rem;
+  width: 18.5rem;
+  margin: -9rem 0 0 3rem;
+  opacity: 0;
+}
+.moflete:hover {
+  opacity: 1;
+}
+.moflete1{
+  background-image: radial-gradient(#F7B8AB, #ffdab9, #ffdab9);
+  height: 4rem;
+  width: 5rem;
+  border-radius: 5rem;
+}
+.moflete2{
+  background-image: radial-gradient(#F7B8AB, #ffdab9, #ffdab9);
+  height: 4rem;
+  width:5rem;
+  float:  right;
+  margin-top: -5rem;
+  border-radius: 5rem;
+}

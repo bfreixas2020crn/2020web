@@ -1,0 +1,30 @@
+body{
+  margin: 0 auto;
+  position: relative;
+  font-size: 2rem;
+  }
+
+.cap{
+  height: 3rem;
+  background-color: aquamarine;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.cos{
+  margin: 2rem 4rem;
+}
+.peu{
+  height: 3rem;
+  width: auto;
+  background-color: aquamarine;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#caplletra{
+  padding-top: 1rem;
+}

@@ -2,10 +2,7 @@
 body{
   font-family: 'Quicksand', sans-serif;
 }
-.centrado{
-  text-align: center;
-  color: grey;
-}
+
 /*ENTRADA*/
 #entrada{
   background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));
@@ -48,24 +45,6 @@ body{
     right: 0;
     bottom: 0;
 }
-#insti{
-  height:3rem;
-  width: 3rem;
-  border-right: 5rem;
-  background-color: red;
-  float: left;
-  margin: 0 8% 0 8%;
-  border-radius: 5rem;
-
-
-}
-#institutos{
- height: 3rem;
- width: 70%;
- margin: 0 auto;
-
-}
-
 input{
   height: 3rem;
   width: 100%;
@@ -82,7 +61,10 @@ input{
 .registrenom{
   text-align: left;
 }
-
+.centrado{
+  text-align: center;
+  color: grey;
+}
 /* fi registre nens */
 /* INICI */
 

@@ -1,9 +1,23 @@
 
-.cap{
+body {
+  background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));
+  background-attachment: fixed;
+}
+#logogrande{
   height: 10rem;
-  background:red;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
+}
+#centrado{
+  text-align: center;
+  margin-top: 35%;
+  animation-name: entrada;
+  animation-duration: 5s;
+}
+@keyframes entrada {
+  0%{
+    opacity: 0;
+
+  }
+  70%{
+    opacity: 1;
+  }
 }

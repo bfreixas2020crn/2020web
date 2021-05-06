@@ -1,7 +1,16 @@
 
-body {
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+.centrado{
+  text-align: center;
+  color: grey;
+}
+/*ENTRADA*/
+#entrada{
   background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));
   background-attachment: fixed;
+
 }
 #logogrande{
   height: 10rem;
@@ -10,14 +19,153 @@ body {
   text-align: center;
   margin-top: 35%;
   animation-name: entrada;
-  animation-duration: 5s;
+  animation-duration: 3s;
 }
 @keyframes entrada {
   0%{
     opacity: 0;
 
   }
-  70%{
+  100%{
     opacity: 1;
   }
 }
+/* CIERRE ENTRADA*/
+/* registre nens*/
+
+#logogrande{
+  height: 10rem;
+}
+#centradoazul{
+  text-align: center;
+  margin-top: 10rem;
+}
+.peu{
+    height: 10rem;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#insti{
+  height:3rem;
+  width: 3rem;
+  border-right: 5rem;
+  background-color: red;
+  float: left;
+  margin: 0 10% 0 10%;
+  border-radius: 5rem;
+
+
+}
+#institutos{
+ height: 3rem;
+ width: 75%;
+ margin: 0 auto;
+}
+
+input{
+  height: 1rem;
+  width: 16rem;
+  border-radius: grey;
+}
+.register{
+  margin: 0 auto;
+  width: 50%;
+  background-color: grey;
+}
+.registrenom{
+  text-align: left;
+}
+
+/* fi registre nens */
+/* INICI */
+
+.general{
+  margin: 0 auto;
+  position: relative;
+  font-size: 2rem;
+  }
+
+.cap{
+  height: 12rem;
+  background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));
+  background-attachment: fixed;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+/*MENU*/
+input[type=checkbox]{
+  visibility: hidden;
+}
+.canviador{
+  width: 2rem;
+  height: 2rem;
+  position:relative;
+  margin: 0.5rem;
+}
+.canviador label{
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  cursor:pointer;
+  z-index:5;
+  left:0rem;
+}
+b{
+  width: 1.5rem;
+  height: 0.2rem;
+  background: white;
+  margin:0.1rem;
+  float: left;
+  position:relative;
+  left:0.15rem;
+  top: 0.38rem;
+  display: block;
+  border-radius: 5rem;
+}
+i{
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius:50px;
+  background: orange;
+  position:absolute;
+  left:0.30rem;
+  top: 0.25rem;
+  z-indez: 3;
+}
+.canviador input[type=checkbox]:checked+label~ul{
+  left:0rem;
+}
+li{
+  display: block;
+  height: 2rem;
+  width:10rem;
+  background: orange;
+  margin: 0 0 0.1rem 0;
+  font-family:Arial, Helvetica, Sans-Serif;
+  line-height:2rem;
+  position: relative;
+  top:-2.2rem;
+}
+li:hover{
+  background:grey;
+}
+ul{
+  position:relative;
+  left:-13rem;
+  transition:1s;
+}
+.menu{
+  position: absolute;
+  top:0;
+  left:0;
+}
+p{
+  margin:2rem 3rem 0 3rem;;
+}
+
+/* CIERRE INICIO */

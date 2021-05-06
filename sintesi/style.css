@@ -54,15 +54,16 @@ body{
   border-right: 5rem;
   background-color: red;
   float: left;
-  margin: 0 10% 0 10%;
+  margin: 0 8% 0 8%;
   border-radius: 5rem;
 
 
 }
 #institutos{
  height: 3rem;
- width: 75%;
+ width: 70%;
  margin: 0 auto;
+
 }
 
 input{
@@ -70,6 +71,7 @@ input{
   width: 100%;
   border-radius: grey;
   margin-top: 2.5rem;
+  border-right: 5rem;
 }
 .register{
   margin: 0 auto;

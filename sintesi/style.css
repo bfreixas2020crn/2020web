@@ -34,6 +34,7 @@ body{
   text-align: center;
   margin-top: 2rem;
 }
+
 .peu{
     height: 10rem;
     width: 100%;
@@ -54,13 +55,28 @@ input{
   margin: 0 auto;
   width: 80%;
   margin-top: 2rem;
+  background-color: pink;
+}
+.iconos{
+  height: 1.5rem;
+  float: left;
+  background-color: blue;
 }
 .reg{
   text-align: left;
-  margin-left: 0;
   color: #A5A5A5;
+  font-size: 20px;
+  float: left;
+  background-color: red;
+  margin: 0;
 }
+.contenidornomsicones{
+  height: 2rem;
+  width: auto;
+  background-color: orange;
+  margin-top: 5rem;
 
+}
 .registrenom{
   text-align: left;
 }

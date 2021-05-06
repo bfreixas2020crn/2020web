@@ -43,18 +43,24 @@ body{
 }
 input{
   height: 3rem;
-  width: 98%;
+  width: 95%;
   border-radius: 0.5rem;
-  margin-top: 2.5rem;
-  border-right: 5rem;
+  margin-top: 1rem;
+  border-color: inherit;
+  box-shadow: 0.2rem 0.2rem 0.2rem grey;
 
 }
 .register{
   margin: 0 auto;
   width: 80%;
-  background-color: grey;
   margin-top: 2rem;
 }
+.reg{
+  text-align: left;
+  margin-left: 0;
+  color: #A5A5A5;
+}
+
 .registrenom{
   text-align: left;
 }

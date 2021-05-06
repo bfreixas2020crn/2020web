@@ -73,8 +73,9 @@ input{
 }
 .register{
   margin: 0 auto;
-  width: 60%;
+  width: 80%;
   background-color: grey;
+  margin-top: 2rem;
 }
 .registrenom{
   text-align: left;

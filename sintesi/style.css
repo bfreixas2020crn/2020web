@@ -29,24 +29,18 @@ body{
     opacity: 1;
   }
 }
+
+
 /* CIERRE ENTRADA*/
 /* registre nens*/
 
+
+a{
+  text-decoration: none;
+}
 #centradoazul{
   text-align: center;
   margin-top: 2rem;
-}
-.register{
-  margin: 0 auto;
-  width: 80%;
-}
-input{
-  height: 2.3rem;
-  width: 97%;
-  border-radius: 0.5rem;
-  margin-top: 1rem;
-  border-color: inherit;
-  box-shadow: 0.2rem 0.2rem 0.2rem grey;
 }
 #cbox1{
   margin-top: 2rem;
@@ -54,6 +48,27 @@ input{
   width: auto;
   box-shadow: none;
   transform: translateY(0.1rem);
+}
+#entrar{
+  height: 2rem;
+  width: 10rem;
+  margin: 0 auto;
+  transform: translateY(2rem);
+  background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));
+  border-radius: 0.5rem;
+}
+.entrante{
+  height: 2.3rem;
+  width: 97%;
+  border-radius: 0.5rem;
+  margin-top: 0rem;
+  border-color: inherit;
+  box-shadow: 0.2rem 0.2rem 0.2rem grey;
+}
+.register{
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 2rem;
 }
 .iconos{
   height: 1.2rem;
@@ -71,7 +86,7 @@ input{
 .contenidornomsicones{
   height: 2rem;
   width: auto;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 .registrenom{
   text-align: left;
@@ -80,30 +95,23 @@ input{
   text-align: center;
   color: #A5A5A5;
 }
-#entrar{
-  height: 2rem;
-  width: 10rem;
-  margin: 0 auto;
-  transform: translateY(9rem);
-  background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));
-  border-radius: 0.5rem;
-}
 .blanc{
   color: white;
   text-align: center;
   padding-top: 0.35rem;
 }
-a{
-  text-decoration: none;
-}
 .peu{
     height: 10rem;
     width: 100%;
     position: relative;
-    margin-top: 15rem;
+    margin-top: 12rem;
 }
+
+
 /* fi registre nens */
 /* INICI */
+
+
 
 .general{
   margin: 0 auto;

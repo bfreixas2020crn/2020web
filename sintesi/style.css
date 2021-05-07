@@ -38,9 +38,9 @@ body{
 .peu{
     height: 10rem;
     width: 100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    margin-top: 7rem;
+
 }
 input{
   height: 3rem;
@@ -55,25 +55,22 @@ input{
   margin: 0 auto;
   width: 80%;
   margin-top: 2rem;
-  background-color: pink;
 }
 .iconos{
   height: 1.5rem;
   float: left;
-  background-color: blue;
+  margin-right: 1rem;
 }
 .reg{
   text-align: left;
   color: #A5A5A5;
   font-size: 20px;
   float: left;
-  background-color: red;
   margin: 0;
 }
 .contenidornomsicones{
   height: 2rem;
   width: auto;
-  background-color: orange;
   margin-top: 5rem;
 
 }

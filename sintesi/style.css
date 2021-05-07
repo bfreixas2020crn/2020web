@@ -120,7 +120,7 @@ a{
   }
 
 .cap{
-  height: 12rem;
+  height: 10rem;
   background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));
   background-attachment: fixed;
   position: fixed;
@@ -130,13 +130,15 @@ a{
 }
 /*MENU*/
 
+.canvia{
+
+}
 .canviador{
   width: 2rem;
   height: 2rem;
   position:relative;
   margin: 0.5rem;
 }
-
 b{
   width: 1.5rem;
   height: 0.2rem;

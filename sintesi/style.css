@@ -36,13 +36,9 @@ body{
   text-align: center;
   margin-top: 2rem;
 }
-
-.peu{
-    height: 10rem;
-    width: 100%;
-    position: relative;
-    margin-top: 12rem;
-
+.register{
+  margin: 0 auto;
+  width: 80%;
 }
 input{
   height: 2.3rem;
@@ -58,11 +54,6 @@ input{
   width: auto;
   box-shadow: none;
   transform: translateY(0.1rem);
-}
-.register{
-  margin: 0 auto;
-  width: 80%;
-  margin-top: 2rem;
 }
 .iconos{
   height: 1.2rem;
@@ -104,6 +95,12 @@ input{
 }
 a{
   text-decoration: none;
+}
+.peu{
+    height: 10rem;
+    width: 100%;
+    position: relative;
+    margin-top: 15rem;
 }
 /* fi registre nens */
 /* INICI */

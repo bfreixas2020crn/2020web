@@ -237,5 +237,14 @@ a{
   float: right;
   margin: 1rem;
 }
+.munyeco{
+  height: 5rem;
+  width: 5rem;
+  background-color: white;
+  border-radius: 5rem;
+  margin: 0 auto;
+  transform: translateY(9rem);
+
+}
 
 /* CIERRE MENU*/

@@ -1,6 +1,8 @@
 
 body{
   font-family: 'Quicksand', sans-serif;
+  color: #A5A5A5;
+
 }
 
 /*ENTRADA*/
@@ -77,7 +79,6 @@ input{
   height: 2rem;
   width: auto;
   margin-top: 5rem;
-
 }
 .registrenom{
   text-align: left;
@@ -85,6 +86,17 @@ input{
 .centrado{
   text-align: center;
   color: #A5A5A5;
+}
+#entrar{
+  height: 2rem;
+  width: 10rem;
+  margin: 0 auto;
+  transform: translateY(9rem);
+  background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));
+  border-radius: 0.5rem;
+}
+.blanc{
+  color: white
 }
 /* fi registre nens */
 /* INICI */

@@ -49,7 +49,12 @@ input{
   margin-top: 1rem;
   border-color: inherit;
   box-shadow: 0.2rem 0.2rem 0.2rem grey;
-
+}
+#cbox1{
+  margin-top: 2rem;
+  height: 0.7rem;
+  width: auto;
+  box-shadow: none;
 }
 .register{
   margin: 0 auto;
@@ -100,23 +105,14 @@ input{
   top: 0;
 }
 /*MENU*/
-input[type=checkbox]{
-  visibility: hidden;
-}
+
 .canviador{
   width: 2rem;
   height: 2rem;
   position:relative;
   margin: 0.5rem;
 }
-.canviador label{
-  width: 2rem;
-  height: 2rem;
-  position: absolute;
-  cursor:pointer;
-  z-index:5;
-  left:0rem;
-}
+
 b{
   width: 1.5rem;
   height: 0.2rem;
@@ -139,9 +135,7 @@ i{
   top: 0.25rem;
   z-indez: 3;
 }
-.canviador input[type=checkbox]:checked+label~ul{
-  left:0rem;
-}
+
 li{
   display: block;
   height: 2rem;

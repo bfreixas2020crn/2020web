@@ -41,12 +41,12 @@ body{
     height: 10rem;
     width: 100%;
     position: relative;
-    margin-top: 7rem;
+    margin-top: 12rem;
 
 }
 input{
-  height: 3rem;
-  width: 95%;
+  height: 2.3rem;
+  width: 97%;
   border-radius: 0.5rem;
   margin-top: 1rem;
   border-color: inherit;
@@ -54,9 +54,10 @@ input{
 }
 #cbox1{
   margin-top: 2rem;
-  height: 0.7rem;
+  height: 1rem;
   width: auto;
   box-shadow: none;
+  transform: translateY(0.1rem);
 }
 .register{
   margin: 0 auto;
@@ -64,9 +65,10 @@ input{
   margin-top: 2rem;
 }
 .iconos{
-  height: 1.5rem;
+  height: 1.2rem;
   float: left;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
+  margin-top: 0.2rem;
 }
 .reg{
   text-align: left;
@@ -96,7 +98,12 @@ input{
   border-radius: 0.5rem;
 }
 .blanc{
-  color: white
+  color: white;
+  text-align: center;
+  padding-top: 0.35rem;
+}
+a{
+  text-decoration: none;
 }
 /* fi registre nens */
 /* INICI */

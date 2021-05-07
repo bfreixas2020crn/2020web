@@ -232,6 +232,10 @@ a{
   width: 100%;
   background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));
 }
-
+.notificaciones img{
+  width: 1.9rem;
+  float: right;
+  margin: 1rem;
+}
 
 /* CIERRE MENU*/

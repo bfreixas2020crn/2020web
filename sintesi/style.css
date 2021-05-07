@@ -2,6 +2,8 @@
 body{
   font-family: 'Quicksand', sans-serif;
   color: #A5A5A5;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -130,10 +132,6 @@ a{
     color: #ECF0F1;
     letter-spacing: .1em;
 }
-
-/**Mobile (Hamburger-)Menu from here on**/
-
-/** This is kind of a styled trigger here **/
 #menuToggle
 {
     display: block;
@@ -143,7 +141,6 @@ a{
     -webkit-user-select: none;
     user-select: none;
 }
-
 #menuToggle input
 {
     display: block;
@@ -157,7 +154,6 @@ a{
     z-index: 2;
     -webkit-touch-callout: none;
 }
-
 #menuToggle span
 {
     display: block;
@@ -173,7 +169,6 @@ a{
     background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
     opacity 0.55s ease;
 }
-
 #menuToggle span:first-child
 {
     transform-origin: 0% 0%;
@@ -202,7 +197,6 @@ a{
     opacity: 1;
     transform: rotate(-45deg) translate(0, -0.0625rem);
 }
-
 #menu
 {
     position: absolute;
@@ -211,32 +205,33 @@ a{
     margin: -6.25rem 0 0 -3rem;
     padding: 2rem;
     padding-top: 8rem;
-    background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));
+    background: #0099D9;
     transform-origin: 0 0;
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     text-align: center;
-
 }
-
 #menu li
 {
     padding: 2% 0;
     list-style-type: none;
     font-size: 1.5rem;
 }
-
 #menu li a {
       color: white;
       text-decoration: none;
 }
-
 #menuToggle input:checked ~ ul
 {
     transform: scale(1.0, 1.0);
     opacity: 1;
 }
 
+#cabezal{
+  height: 10rem;
+  width: 100%;
+  background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));
+}
 
 
 /* CIERRE MENU*/

@@ -102,7 +102,6 @@ a{
   color: white;
   text-align: center;
   padding-top: 0.35rem;
-
 }
 .peu{
     height: 10rem;
@@ -309,7 +308,7 @@ a{
 }
 
 .pantalla_notificaciones{
-  height: 37rem;
+  height: 40rem;
   width: 80%;
   background-color:  rgba(0, 147, 208, 1);
   position: absolute;
@@ -321,11 +320,17 @@ a{
 .bafarades{
   height: 5rem;
   width: 90%;
-  background-color: orange;
+  background-color: white;
   margin: 0 auto;
   margin-top: 0.7rem;
   border-radius: 0.4rem;
+  opacity: 95%;
 }
 #superior{
   margin-top: 1.2rem;
+}
+#blanc_notificaciones{
+  color: white;
+  margin-left: 5%;
+  margin-top: 1.5rem;
 }

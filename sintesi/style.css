@@ -312,23 +312,25 @@ a{
 }
 
 .pantalla_notificaciones{
-  height: 40rem;
+  height: auto;
   width: 80%;
   background-color:  rgba(0, 147, 208, 1);
   position: absolute;
   top: 2rem;
-  left: 10%;
+  left: 9%;
   right: 1rem;
   border-radius: 0.9rem;
+  padding: 1%;
 }
 .bafarades{
-  height: 5rem;
+  height: auto;
   width: 90%;
   background-color: white;
   margin: 0 auto;
   margin-top: 0.7rem;
   border-radius: 0.4rem;
   opacity: 95%;
+  padding: 3% 3% 0.5% 3%;
 }
 #superior{
   margin-top: 1.2rem;
@@ -338,28 +340,9 @@ a{
   margin-left: 5%;
   margin-top: 1.5rem;
 }
-
-.close {
+#close{
+  height: 10rem;
+  width: 10rem;
+  background-color: orange;
   position: absolute;
-  right: 32px;
-  top: 32px;
-  width: 32px;
-  height: 32px;
-  opacity: 0.3;
-}
-.close:hover {
-  opacity: 1;
-}
-.close:before, .close:after {
-  position: absolute;
-  left: 15px;
-  height: 33px;
-  width: 2px;
-  background-color: #333;
-}
-.close:before {
-  transform: rotate(45deg);
-}
-.close:after {
-  transform: rotate(-45deg);
 }

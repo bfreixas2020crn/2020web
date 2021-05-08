@@ -114,27 +114,6 @@ a{
 
 /* fi registre nens */
 /* MENU */
-.newburgerintown {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 40vh;
-  width:50%;
-  min-width: 400px;
-  height: 60px;
-  margin: 0 auto;
-}
-
-.newburgerintown h1 {
-    font-weight: 300;
-    color: #ECF0F1;
-}
-
-.newburgerintown p {
-    font-weight: 100;
-    color: #ECF0F1;
-    letter-spacing: .1em;
-}
 #menuToggle
 {
     display: block;
@@ -235,6 +214,28 @@ a{
   width: 100%;
   background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));
 }
+.newburgerintown {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40vh;
+  width:50%;
+  min-width: 400px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.newburgerintown h1 {
+    font-weight: 300;
+    color: #ECF0F1;
+}
+
+.newburgerintown p {
+    font-weight: 100;
+    color: #ECF0F1;
+    letter-spacing: .1em;
+}
+
 .notificaciones img{
   width: 1.9rem;
   float: right;
@@ -259,3 +260,28 @@ a{
   color: white;
 }
 /* CIERRE MENU*/
+.contenidor{
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  background-color: orange;
+  margin-top: 3rem;
+}
+#contenidorsgrans{
+    width: 80%;
+    height: 100%;
+    background-color: pink;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+#histories{
+    width: 80%;
+    height: 5rem;
+    background-color: pink;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
+.text_menu{
+  text-align: center;
+  padding-top: 1rem;
+}

@@ -263,29 +263,40 @@ a{
 .contenidor{
   margin: 0 auto;
   width: 90%;
-  height: 5rem;
-  background-color: orange;
+  height: 100%;;
   margin-top: 3rem;
 }
-#contenidorsgrans{
+.contenidorsgrans{
     width: 80%;
-    height: 100%;
-    background-color: pink;
+    height: 5rem;
     margin: 0 auto;
     border-radius: 0.5rem;
 }
 #histories{
     width: 80%;
     height: 3rem;
-    background-color: pink;
     margin: 0 auto;
     border-radius: 0.5rem;
 }
 .text_menu{
   text-align: center;
   padding-top: 1.5rem;
+  color: white;
 }
 .text_menu_histories{
   text-align: center;
   padding-top: 0.5rem;
+    color: white;
+}
+#que_necessites{
+  background-color: #2296A6;
+}
+#mentors{
+  background-color: #34BBCF;
+}
+#agenda{
+  background-color: #81D1F7;
+}
+#histories{
+  background-color: #00768B;
 }

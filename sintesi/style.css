@@ -263,7 +263,7 @@ a{
 .contenidor{
   margin: 0 auto;
   width: 90%;
-  height: 100%;
+  height: 5rem;
   background-color: orange;
   margin-top: 3rem;
 }
@@ -276,12 +276,16 @@ a{
 }
 #histories{
     width: 80%;
-    height: 5rem;
+    height: 3rem;
     background-color: pink;
     margin: 0 auto;
     border-radius: 0.5rem;
 }
 .text_menu{
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
+}
+.text_menu_histories{
+  text-align: center;
+  padding-top: 0.5rem;
 }

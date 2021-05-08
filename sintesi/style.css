@@ -258,11 +258,6 @@ a{
   color: white;
 }
 
-
-/* CIERRE MENU*/
-
-
-
 #que_necessites{
   background-color: #2296A6;
 }
@@ -305,7 +300,11 @@ a{
 }
 
 
+/* CIERRE MENU*/
 /* NOTIFICACIONES*/
+
+
+
 .fondo{
   opacity: 40%;
 }
@@ -343,3 +342,29 @@ a{
 .blue{
   color: rgba(0, 147, 208, 1);
 }
+
+/* NOTIFICACIONES*/
+
+/*QUE NECESSITES*/
+#contenidor_necessites{
+  width: 85%;
+  height: auto;
+  background-color: #2296A6;
+  margin: 0 auto;
+  padding:1rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
+}
+.blanc_justicat{
+  color: white;
+  text-align: justify;
+  margin: 0 0.6rem 0.6rem 0.6rem;
+}
+
+
+
+
+
+
+
+/*QUE NECESSITES*/

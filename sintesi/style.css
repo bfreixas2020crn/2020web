@@ -258,7 +258,11 @@ a{
   padding: 0;
   color: white;
 }
+
+
 /* CIERRE MENU*/
+
+
 
 #que_necessites{
   background-color: #2296A6;
@@ -273,19 +277,19 @@ a{
   background-color: #00768B;
 }
 #histories{
-    width: 80%;
+    width: 90%;
     height: 3rem;
     margin: 0 auto;
     border-radius: 0.5rem;
 }
 .contenidor{
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
   height: 100%;;
   margin-top: 3rem;
 }
 .contenidorsgrans{
-    width: 80%;
+    width: 90%;
     height: 5rem;
     margin: 0 auto;
     border-radius: 0.5rem;
@@ -333,4 +337,29 @@ a{
   color: white;
   margin-left: 5%;
   margin-top: 1.5rem;
+}
+
+.close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
 }

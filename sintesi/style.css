@@ -260,6 +260,25 @@ a{
   color: white;
 }
 /* CIERRE MENU*/
+
+#que_necessites{
+  background-color: #2296A6;
+}
+#mentors{
+  background-color: #34BBCF;
+}
+#agenda{
+  background-color: #81D1F7;
+}
+#histories{
+  background-color: #00768B;
+}
+#histories{
+    width: 80%;
+    height: 3rem;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
 .contenidor{
   margin: 0 auto;
   width: 90%;
@@ -269,12 +288,6 @@ a{
 .contenidorsgrans{
     width: 80%;
     height: 5rem;
-    margin: 0 auto;
-    border-radius: 0.5rem;
-}
-#histories{
-    width: 80%;
-    height: 3rem;
     margin: 0 auto;
     border-radius: 0.5rem;
 }
@@ -288,15 +301,31 @@ a{
   padding-top: 0.5rem;
     color: white;
 }
-#que_necessites{
-  background-color: #2296A6;
+
+
+/* NOTIFICACIONES*/
+.fondo{
+  opacity: 40%;
 }
-#mentors{
-  background-color: #34BBCF;
+
+.pantalla_notificaciones{
+  height: 37rem;
+  width: 80%;
+  background-color:  rgba(0, 147, 208, 1);
+  position: absolute;
+  top: 2rem;
+  left: 10%;
+  right: 1rem;
+  border-radius: 0.9rem;
 }
-#agenda{
-  background-color: #81D1F7;
+.bafarades{
+  height: 5rem;
+  width: 90%;
+  background-color: orange;
+  margin: 0 auto;
+  margin-top: 0.7rem;
+  border-radius: 0.4rem;
 }
-#histories{
-  background-color: #00768B;
+#superior{
+  margin-top: 1.2rem;
 }

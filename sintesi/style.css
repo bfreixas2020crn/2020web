@@ -312,7 +312,7 @@ a{
 }
 
 .pantalla_notificaciones{
-  height: auto;
+  height: 44rem;
   width: 80%;
   background-color:  rgba(0, 147, 208, 1);
   position: absolute;

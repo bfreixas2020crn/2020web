@@ -464,32 +464,63 @@ a{
   margin-right: 0.6rem;
   margin-top: 3rem;
 }
-
-.baf_dret{
+.baf{
   background-color: white;
-  width: 60%;
+  width: 80%;
   height:auto;
   color: black;
+
+  padding: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem grey;
+  z-index: -50;
   position: relative;
+}
+.esq{
+  float: left;
   border-radius: 0.5rem 0.5rem 0.5rem 0 ;
-  padding: 0.5rem;
-  box-shadow: 0.1rem 0.1rem 0.3rem grey;
-  margin-bottom: 0;
 }
-
-.baf_esq{
-  background-color: white;
-  width: 60%;
-  height:auto;
-  color: black;
-  position: relative;
-  border-radius: 0.5rem 0.5rem 0  0.5rem ;
-  padding: 0.5rem;
-  box-shadow: 0.1rem 0.1rem 0.3rem grey;
+.dret{
   float: right;
-  margin-bottom: 0;
+  border-radius: 0.5rem 0.5rem 0 0.5rem  ;
+}
+/*CHAT*/
+
+/*llamada entrante*/
+.altres_problemes{
+  margin-left: 2.8rem;
+}
+#altres{
+  margin-top: -2rem;
+  margin-left: 2rem;
+  width: 30%;
+}
+#blanc_left{
+  color: white;
+  margin-left: 5%;
+}
+#monigote{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+.centrado{
+  margin: 0 auto;
+  width: 90%;
+}
+.imagen{
+  width: 20%;
+  margin-top: 1rem;
+}
+#cojer{
+  float: left;
+  margin-left: 4rem;
+}
+#colgar{
+  float: right;
+  margin-right: 4rem;
+}
+.center{
+  float: left;
 }
 
-
-
-/*CHAT*/
+/*llamada entrante*/

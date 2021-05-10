@@ -610,9 +610,23 @@ a{
   background-repeat: no-repeat;
   background-position: bottom;
 }
-
-
-
+.mentor_valoracio{
+  width: 100%;
+  height: 20rem;
+  background-color:transparent;
+  border-color: transparent;
+  color: white;
+  opacity: 80%;
+}
+#contenidor_valoracio{
+  width: 85%;
+  height: 100%;
+  background-color: #2296A6;
+  margin: 0 auto;
+  padding:1rem;
+  margin-top: 13rem;
+  border-radius: 1rem;
+}
 
 
 

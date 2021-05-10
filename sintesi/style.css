@@ -106,8 +106,10 @@ a{
 .peu{
     height: 10rem;
     width: 100%;
-    position: relative;
-    margin-top: 12rem;
+    position: fixed;
+    bottom: -6rem;
+    left: 0;
+    right: 0;
 }
 
 
@@ -482,6 +484,17 @@ a{
 .dret{
   float: right;
   border-radius: 0.5rem 0.5rem 0 0.5rem  ;
+}
+.final{
+  margin-bottom: 4rem;
+}
+#barra_escriure{
+  height: 2rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 /*CHAT*/
 

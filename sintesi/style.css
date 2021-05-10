@@ -498,7 +498,18 @@ a{
 #barra{
   height: 2rem;
   width: 100%;
-  z-index: -3;
+  padding-left: 2rem;
+}
+#feliz{
+  height: 1rem;
+  width: auto;
+  transform: translateY(-1.7rem)translateX(0.5rem);
+}
+#micro{
+  height: 1rem;
+  width: auto;
+  float: right;
+  transform: translateY(-1.7rem)translateX(-0.5rem);
 }
 /*CHAT*/
 

@@ -498,27 +498,27 @@ a{
   margin-bottom: 4rem;
 }
 #barra_escriure{
-  height: 2rem;
+  height: 3rem;
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
 }
 #barra{
-  height: 2rem;
+  height: 3rem;
   width: 100%;
   padding-left: 2rem;
 }
 #feliz{
   height: 1rem;
   width: auto;
-  transform: translateY(-1.7rem)translateX(0.5rem);
+  transform: translateY(-2.2rem)translateX(0.5rem);
 }
 #micro{
   height: 1rem;
   width: auto;
   float: right;
-  transform: translateY(-1.7rem)translateX(-0.5rem);
+  transform: translateY(-2.2rem)translateX(-0.5rem);
 }
 /*CHAT*/
 

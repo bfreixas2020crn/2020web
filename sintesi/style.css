@@ -439,6 +439,7 @@ a{
   margin: 1rem;
   border: 5px solid black;
   height: 2rem;
+  transform: translateY(0.5rem);
 }
 .envia{
   float: right;
@@ -454,7 +455,10 @@ a{
   bottom: 0;
   right: 0 ;
 }
-
+.altres_problemes{
+  margin-left: 2rem;
+  margin-bottom: -2rem;
+}
 /*CONTACTA*/
 
 /*CHAT*/

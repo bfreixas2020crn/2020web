@@ -666,6 +666,7 @@ a{
   background-color: #00768B;
   margin: 0 auto;
   border-radius: 1rem;
+  float: left;
 }
 .blanc_sup{
   color: white;
@@ -684,4 +685,37 @@ a{
   padding-bottom: 2rem;
 }
 
+
+div.histories {
+  overflow: auto;
+  white-space: nowrap;
+}
+/*Historiaa*/
+/*Agenda*/
+
+
+
+#mes{
+  text-align: center;
+  margin-top: 2rem;
+}
+#agenda{
+  width: 90%;
+  margin: 0 auto;
+}
+.dies_nom{
+  padding: 0.5rem;
+}
+.dies_nom_semana{
+  padding: 0.8rem;
+  color: grey;
+}
+tr{
+  background-color: white;
+  border: 0 solid;
+}
+.dies_nom:hover{
+  background-color: #81D1F7;
+  border-radius: 10rem;
+}
 /*Agenda*/

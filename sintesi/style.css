@@ -616,7 +616,6 @@ a{
   background-color:transparent;
   border-color: transparent;
   color: white;
-  opacity: 80%;
 }
 #contenidor_valoracio{
   width: 85%;
@@ -645,14 +644,15 @@ a{
   margin: 0 auto;
   border-radius: 5rem;
 }
-#margin_cap{
-  margin-top: 13rem;
+.margin_cap{
+  margin-top: 15rem;
 }
 #numero{
   height:2rem;
   width: auto;
   transform: translateX(0.5rem) translateY(0.5rem);
   float: left;
+  z-index: -60;
 }
 #cita{
   color: white;
@@ -660,12 +660,19 @@ a{
   margin-left: 2rem;
   margin-top: 0.9rem;
 }
-
-
-
-
-
-
-
+#historia{
+  width: 90%;
+  height: 20rem;
+  background-color: #00768B;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+.blanc_sup{
+  color: white;
+  text-align: center;
+  padding-top:2.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
 /*Agenda*/

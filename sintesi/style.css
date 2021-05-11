@@ -745,3 +745,17 @@ tr{
   height: 7rem;
 }
 /*alumnbe*/
+/*mentor_pre*/
+.estrella{
+  height: 1.3rem;
+  width: 1.3rem;
+  float: right;
+  margin-top: -0.5rem;
+  margin-right: 0.5rem;
+  background-image: url(img/estrella_click.png);
+  background-size: 1.3rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*mentor_pre*/
+/*mentor_pre*/

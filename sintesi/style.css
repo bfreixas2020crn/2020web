@@ -636,3 +636,36 @@ a{
 
 
 /*llamada*/
+/*Agenda*/
+
+#fecha_programada{
+  height: 3rem;
+  width: 90%;
+  background-color: #81D1F7;
+  margin: 0 auto;
+  border-radius: 5rem;
+}
+#margin_cap{
+  margin-top: 13rem;
+}
+#numero{
+  height:2rem;
+  width: auto;
+  transform: translateX(0.5rem) translateY(0.5rem);
+  float: left;
+}
+#cita{
+  color: white;
+  float: left;
+  margin-left: 2rem;
+  margin-top: 0.9rem;
+}
+
+
+
+
+
+
+
+
+/*Agenda*/

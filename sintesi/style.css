@@ -612,10 +612,12 @@ a{
 }
 .mentor_valoracio{
   width: 100%;
-  height: 20rem;
+  height: 6rem;
   background-color:transparent;
   border-color: transparent;
-  color: white;
+}
+.textouno{
+  height: 20rem;
 }
 #contenidor_valoracio{
   width: 85%;
@@ -666,7 +668,6 @@ a{
   background-color: #00768B;
   margin: 0 auto;
   border-radius: 1rem;
-  float: left;
 }
 .blanc_sup{
   color: white;
@@ -685,11 +686,6 @@ a{
   padding-bottom: 2rem;
 }
 
-
-div.histories {
-  overflow: auto;
-  white-space: nowrap;
-}
 /*Historiaa*/
 /*Agenda*/
 

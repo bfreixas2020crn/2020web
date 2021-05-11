@@ -695,7 +695,7 @@ a{
   text-align: center;
   margin-top: 2rem;
 }
-#agenda{
+#agendauno{
   width: 90%;
   margin: 0 auto;
 }
@@ -715,3 +715,33 @@ tr{
   border-radius: 10rem;
 }
 /*Agenda*/
+/*alumnbe*/
+
+.contenidorsgrans_alumne{
+  width: 90%;
+  height: 6rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+.contenidorsmig_alumne{
+  width: 40%;
+  height:6rem;
+  margin: 1rem 5% 1rem 5%;
+  border-radius: 0.5rem;
+  float: left;
+}
+.text_menu_alumne{
+  text-align: center;
+  padding-top: 0.8rem;
+  color: white;
+}
+.text_menu_alumne_uno{
+  text-align: center;
+  padding-top: 2rem;
+  color: white;
+}
+.contenidor_float{
+  width: 100%;
+  height: 7rem;
+}
+/*alumnbe*/

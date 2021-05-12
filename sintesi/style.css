@@ -9,12 +9,6 @@ body{
   padding: 0;
 
 }
-input{
-  z-index: -60;
-}
-label{
-  z-index: -60;
-}
 /*ENTRADA*/
 #entrada{
   background: repeating-linear-gradient(to bottom left , rgba(0, 147, 208, 1) ,rgba(66, 254, 231, 1));

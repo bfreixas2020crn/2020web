@@ -817,3 +817,11 @@ tr{
 
 
 /*terminos*/
+/*informes*/
+.blanc_sup_justifict{
+  color: white;
+  text-align: justify;
+  padding-top:2.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

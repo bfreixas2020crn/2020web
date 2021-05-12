@@ -457,6 +457,7 @@ a{
   border: 5px solid black;
   height: 2rem;
   transform: translateY(0.5rem);
+  list-style-type:  <std-list-style-name> | none | inherit ;
 }
 .envia{
   float: right;

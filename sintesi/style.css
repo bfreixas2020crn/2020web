@@ -457,7 +457,7 @@ a{
   border: 5px solid black;
   height: 2rem;
   transform: translateY(0.5rem);
-  list-style-type:  <std-list-style-name> | none | inherit ;
+
 }
 .envia{
   float: right;
@@ -544,10 +544,10 @@ a{
 .altres_problemes{
   margin-left: 2.8rem;
 }
-#altres{
+.altres{
   margin-top: -2rem;
   margin-left: 2rem;
-  width: 30%;
+  width: 50%;
 }
 #blanc_left{
   color: white;

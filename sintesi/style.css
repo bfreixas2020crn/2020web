@@ -666,6 +666,9 @@ a{
 }
 .margin_cap{
   margin-top: 13rem;
+  height: 20rem;
+  width: 100vw;
+  overflow-y: hidden;
 }
 #numero{
   height:2rem;
@@ -680,13 +683,18 @@ a{
   margin-left: 2rem;
   margin-top: 0.9rem;
 }
-#historia{
-  width: 90%;
+.caixa_display{
+  width: 100rem;
+
+}
+.historia{
+  width: 90vw;
   height: 20rem;
   background-color: #00768B;
-  margin: 0 auto;
+  margin: 0 5vw 0 5vw;
   border-radius: 1rem;
-}
+  float: left;
+ }
 .blanc_sup{
   color: white;
   text-align: center;
@@ -694,7 +702,7 @@ a{
   padding-left: 1rem;
   padding-right: 1rem;
 }
-#fixed{
+#fixedd{
   position: fixed;
   bottom: 0;
   right: 0;

@@ -728,6 +728,10 @@ a{
 .dies_nom{
   padding: 0.5rem;
 }
+#cita_agafada{
+  background-color: #81D1F7;
+  border-radius: 10rem;
+}
 .dies_nom_semana{
   padding: 0.8rem;
   color: grey;
@@ -821,10 +825,23 @@ tr{
 
 /*terminos*/
 /*informes*/
-.blanc_sup_justifict{
+.blanc_sup_info{
   color: white;
-  text-align: justify;
+  text-align: center;
   padding-top:2.3rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.margin_cap_inf{
+  margin-top: 13rem;
+}
+.blanc_sup_justifict_inf{
+  padding: 1rem;
+}
+.historia_inf{
+  height: 20rem;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #00768B;
+  border-radius: 1rem;
+ }

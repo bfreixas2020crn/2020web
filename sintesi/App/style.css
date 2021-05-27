@@ -252,7 +252,7 @@ a{
   margin: 0 auto;
   transform: translateY(8rem);
   background-image: url(img/usuariored.png);
-  background-size: 3rem;
+  background-size: 6rem;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -401,13 +401,28 @@ a{
   width: 5rem;
   background-color: white;
   border-radius: 0.5rem;
-  margin: 1% ;
+  margin: 0.5% ;
   float: left;
   position: static;
-  background-size: 4rem;
-  background-image: url(img/usuario.png);
+  background-size: 8rem;
+  background-image: url(img/marta.jpg);
   background-repeat: no-repeat;
   background-position: center;
+}
+.marta{
+  background-image: url(img/marc.jpg);
+}
+.eric{
+  background-image: url(img/eric.jpg);
+}
+.arnau{
+  background-image: url(img/arnau.jpg);
+}
+.marina{
+  background-image: url(img/marina.jpg);
+}
+.mariano{
+  background-image: url(img/mariano.jpg);
 }
 .text_mentor{
   text-align: left;
@@ -510,6 +525,7 @@ a{
 }
 .dret{
   float: right;
+  text-align: right;
   border-radius: 0.5rem 0.5rem 0 0.5rem  ;
 }
 .final{

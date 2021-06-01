@@ -438,6 +438,15 @@ margin: 0 auto;
 .mariano {
 	background-image: url(img/mariano.jpg);
 }
+.anahi{
+	background-image: url(img/anahi.jpg);
+}
+.jack{
+	background-image: url(img/Jack.jpg);
+}
+.joseph{
+	background-image: url(img/joseph.jpg);
+}
 .text_mentor {
 	text-align: left;
 	color: white;

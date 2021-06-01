@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 body {
 	font-family: 'Quicksand', sans-serif;
 	color: #A5A5A5;
@@ -228,6 +229,7 @@ a {
 	right: 0;
 	top: 0;
 	width: 100%;
+	z-index: 2000;
 	background: repeating-linear-gradient(to bottom left, rgba(0, 147, 208, 1), rgba(66, 254, 231, 1));
 }
 
@@ -654,6 +656,10 @@ margin: 0 auto;
 	height: 6rem;
 	background-color: transparent;
 	border-color: transparent;
+}
+
+.mentor_valoracio::placeholder {
+	color: white;
 }
 .textouno {
 	height: 20rem;

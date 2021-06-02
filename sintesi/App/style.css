@@ -485,20 +485,7 @@ margin: 0 auto;
 	margin-right: 0.5rem;
 	opacity: 0.7;
 }
-.estrella {
-	height: 1.3rem;
-	width: 1.3rem;
-	float: right;
-	margin-top: -0.5rem;
-	margin-right: 0.5rem;
-	background-image: url(img/estrella.png);
-	background-size: 1.3rem;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-.estrella:hover {
-	background-image: url(img/estrella_click.png);
-}
+
 
 /*MENTORS*/
 
@@ -859,17 +846,38 @@ tr {
 /*alumnbe*/
 
 /*mentor_pre*/
-.estrella_pref {
+
+input[type=checkbox]{
+  visibility: hidden;
+}
+.agradador {
 	height: 1.3rem;
 	width: 1.3rem;
 	float: right;
 	margin-top: -0.5rem;
 	margin-right: 0.5rem;
-	background-image: url(img/estrella_click.png);
+	background-image: url(img/estrella.png);
 	background-size: 1.3rem;
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.agradador label{
+	height: 1.4rem;
+	width: 1.4rem;
+	float: right;
+	margin-top: -1.26rem;
+	margin-right: -0.05rem;
+	background-image: url(img/estrella_click.png);
+	background-size: 1.5rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0;
+}
+input[type=checkbox]:checked+label{
+  opacity:1;
+}
+
+
 
 /*mentor_pre*/
 

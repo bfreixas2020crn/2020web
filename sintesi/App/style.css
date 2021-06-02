@@ -513,6 +513,7 @@ input[type=checkbox].css-checkbox + label.css-label {
 	font-size:15px;
 	vertical-align:middle;
 	cursor:pointer;
+	margin: 1rem;
 }
 
 input[type=checkbox].css-checkbox:checked + label.css-label {
@@ -613,6 +614,7 @@ input[type=checkbox].css-checkbox:checked + label.css-label {
 .altres {
 	margin-top: -2rem;
 	margin-left: 2rem;
+	margin-bottom: 1.8rem;
 	width: 50%;
 }
 #blanc_left {

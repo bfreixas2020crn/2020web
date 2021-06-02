@@ -503,12 +503,41 @@ margin: 0 auto;
 /*MENTORS*/
 
 /*CONTACTA*/
-.acceptacio {
-	margin: 1rem;
-	border: 5px solid black;
-	height: 2rem;
-	transform: translateY(0.5rem);
+
+input[type=checkbox].css-checkbox {
+	  position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height:1px;
+    width:1px;
+    margin:-1px;
+    padding:0;
+    border:0;
+
 }
+
+input[type=checkbox].css-checkbox + label.css-label {
+	padding-left:20px;
+	height:15px;
+	display:inline-block;
+	line-height:15px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:15px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label {
+	background-position: 0 -15px;
+}
+
+
+.lite-cyan-check{
+	background-image:url(http://csscheckbox.com/checkboxes/lite-cyan-check.png);
+
+}
+
 .envia {
 	float: right;
 	background: repeating-linear-gradient(to bottom left, rgba(0, 147, 208, 1), rgba(66, 254, 231, 1));

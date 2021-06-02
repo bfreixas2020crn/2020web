@@ -847,9 +847,55 @@ tr {
 
 /*mentor_pre*/
 
-input[type=checkbox]{
+#agrada1{
   visibility: hidden;
 }
+#agrada2{
+  visibility: hidden;
+}
+#agrada3{
+  visibility: hidden;
+}
+#agrada4{
+  visibility: hidden;
+}
+#agrada5{
+  visibility: hidden;
+}
+#agrada6{
+  visibility: hidden;
+}
+#agrada7{
+  visibility: hidden;
+}
+#agrada8{
+  visibility: hidden;
+}
+#agrada9{
+  visibility: hidden;
+}
+#agrada10{
+  visibility: hidden;
+}
+#agrada11{
+  visibility: hidden;
+}
+#agrada12{
+  visibility: hidden;
+}
+#agrada13{
+  visibility: hidden;
+}
+#agrada14{
+  visibility: hidden;
+}
+#agrada15{
+  visibility: hidden;
+}
+#agrada16{
+  visibility: hidden;
+}
+
 .agradador {
 	height: 1.3rem;
 	width: 1.3rem;

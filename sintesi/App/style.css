@@ -391,6 +391,8 @@ margin: 0 auto;
 .blanc_no_justicat {
 	color: white;
 	margin: 0 0.6rem 0.6rem 0.6rem;
+	line-height: 5rem;
+
 }
 
 /*QUE NECESSITES*/
@@ -908,18 +910,20 @@ tr {
 	background-size: 1.3rem;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-color: red;
 }
 .agradador label{
 	height: 1.4rem;
 	width: 1.4rem;
 	float: right;
-	margin-top: -1.26rem;
+	margin-top: -1.36rem;
 	margin-right: -0.05rem;
 	background-image: url(img/estrella_click.png);
 	background-size: 1.5rem;
 	background-repeat: no-repeat;
 	background-position: center;
 	opacity: 0;
+	background-color: pink;
 }
 input[type=checkbox]:checked+label{
   opacity:1;

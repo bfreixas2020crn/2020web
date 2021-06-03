@@ -910,7 +910,6 @@ tr {
 	background-size: 1.3rem;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: red;
 }
 .agradador label{
 	height: 1.4rem;
@@ -923,7 +922,6 @@ tr {
 	background-repeat: no-repeat;
 	background-position: center;
 	opacity: 0;
-	background-color: pink;
 }
 input[type=checkbox]:checked+label{
   opacity:1;
